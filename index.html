@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dothings</title>
+    <link href="https://fonts.google.com/?selection.family=Cormorant+Garamond:300|Quattrocento+Sans">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400|Montserrat:200,300,400&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --verd:#DADE63;
+        }
+        img{
+            width: 100%;
+        }
+        body{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10px;
+        }
+        nav{
+            z-index: 2;
+            display: flex;
+            right: 100%;
+            height: 80px;
+            width: 100%;
+            font-weight: 700;
+            padding: 2em 0 2em 5em;
+        }
+        .navigation{
+            width: 100%;
+        }
+        h2{
+            color: var(--verd);
+            font-size: 1.7em;
+            padding: 2em 0 0 0;
+        }
+        h1{
+            width: 100%;
+            display: flex;
+            background: white;
+            padding: 1.5em 0 0 10em;
+            text-align: right;
+        }
+        h1 svg{
+            height: 40px;
+            width: 40px;
+        }
+        .navigation a{
+            color: var(--verd);
+            padding: 0 1em 0.5em 0;
+            font-size: 15px;
+        }
+        header{
+            width: 100%;
+            text-align: center;
+            padding: 0.7em 0 0.5em 0;
+            font-family: 'Cormorant Garamond', light;
+            font-size: 20em;
+            color: var(--verd);
+        }
+        main{
+            display: grid;
+            grid-template: repeat(1, 1fr)/repeat(2, 1fr)
+        }
+        footer{
+            padding: 2em 3em;
+            display: flex;
+            font-size: 20px;
+        }
+        .col-1{
+            width: 50%;
+        }
+        .col-2{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+       <h2>We are a brand experience design company.  We partner with clients to help them connect with their audiences through outstanding products, experiences, and environments.  We do it through our unique design “with a point of view” approach.  We believe that enriching product experiences with a sense of style always delivers business results.</h2>
+        <div class="navigation">
+        <h1>
+        <a href="#">Work</a>
+        <a href="#">Inspo</a>
+        <a href="#">About</a>
+        </h1>
+        </div>
+    </nav>
+    <header>
+        <h3>Dothings</h3>
+    </header>
+    <main>
+        <section>
+            <div class="content_img1">
+                <img src="img/dothings.jpg">
+            </div>
+        </section>
+        <section>
+            <div class="content_img2">
+                <img src="img/vote.jpg">
+            </div>
+        </section>
+        <section>
+            <div class="content_img3">
+                <img src="img/TomFord.gif">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="col-1">
+            <p>61 Greenpoint Ave, Suite #306</p>
+            <p>Brooklyn, NY 11222</p>
+            <p>212 228 3328</p>
+            <a href="hello@dothingsnyc.com">hello@dothingsnyc.com</a>
+        </div>
+        <div class="col-2">
+            <p>Instagram</p>
+            <p>Linkedin</p>
+        </div>
+    </footer>
+</body>
+</html>
